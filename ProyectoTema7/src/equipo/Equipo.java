@@ -25,6 +25,13 @@ public class Equipo {
 	 }
 		this.jugadores[posicion]= jugador;
  }
-	
+	public void mostrarAlineacion() {
+	    for (int i = 0; i < jugadores.length; i++) {
+	        if (jugadores[i] == null) {
+	            throw new IllegalArgumentException("Posición " + i + " no cubierta");
+	        }
+	    }
+	   
+	}
 
 }

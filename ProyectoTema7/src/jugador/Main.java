@@ -25,11 +25,15 @@ public class Main {
 		 Lateral l1= new Lateral ("yuk", 7, "rt", 5, "xghm");
 		 Delantero delantero1= new Delantero  ("jhj",7, "hj", 6);
 		 DelanteroCentro dCentro1= new DelanteroCentro ("tyu", 46, "hf", 3, 9);
-		 Extremo eIzq1= new Extremo ("fjk", 75, "kh", 6, "izquierdo");
+		 Extremo eIzq1= new Extremo ("fjk", 75, "kh", 6, "IZQUIERDA");
 		 Portero prtero1= new Portero ("fyn",5, "Sgh", 6);
-		 Extremo eDer1= new Extremo ("dfg", 3, "gnf", 6, "derecho");
+		 Extremo eDer1= new Extremo ("dfg", 3, "gnf", 6, "DERECHA");
 
 		 equipo1.aniadirJugador(c1, 0);
+		 
+		 c1.mostrarDatos();
+		 equipo1.mostrarAlineacion();
+		
 	}
 
 }
