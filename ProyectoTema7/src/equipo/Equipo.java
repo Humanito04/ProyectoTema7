@@ -3,7 +3,7 @@ package equipo;
 import jugador.Jugador;
 
 public class Equipo {
-private Jugador jugadores[];
+	private Jugador jugadores[];
 	
 	public Equipo() {
 		this.jugadores = new Jugador[11];
@@ -20,11 +20,11 @@ private Jugador jugadores[];
 
 
 	public void aniadirJugador(Jugador jugador,int posicion ) {
-		if(posicion<0||posicion>this.jugadores.length-1) {
+		if(posicion<0||posicion>this.jugadores.length) {
 			throw new IllegalArgumentException("La posicion indicada no pertenece al array");
 	 }
 		this.jugadores[posicion]= jugador;
  }
-
+	
 
 }

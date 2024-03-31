@@ -15,7 +15,7 @@ import portero.Portero;
 public class Main {
 
 	public static void main(String[] args) {
-		 Equipo e1[]= new Equipo [11];
+		Equipo equipo1 = new Equipo();
 
 		 CentroCampista c1= new CentroCampista ( "pepa", 1,"sef",  4);
 		 MediaPunta m1= new MediaPunta( "nombre", 5,  "rty",  6 , 8);
@@ -29,8 +29,7 @@ public class Main {
 		 Portero prtero1= new Portero ("fyn",5, "Sgh", 6);
 		 Extremo eDer1= new Extremo ("dfg", 3, "gnf", 6, "derecho");
 
-
-
+		 equipo1.aniadirJugador(c1, 0);
 	}
 
 }
