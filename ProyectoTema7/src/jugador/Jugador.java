@@ -47,10 +47,4 @@ public abstract class Jugador  {
 		return result;
 	}
 
-
-
-
-
-
-
 }
