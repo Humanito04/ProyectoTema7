@@ -27,7 +27,7 @@ private int goles;
 	
 	@Override
 	public String toString() {
-		return "Delantero [nombre " + this.getNombre()+"dorsal "+ this.getDorsal()+" equipo "+ this.getEquipo()+" goles "
+		return "Delantero [nombre= " + this.getNombre()+", dorsal= "+ this.getDorsal()+", equipo= "+ this.getEquipo()+", goles= "
 		+ this.goles + "]";
 	}
 	@Override

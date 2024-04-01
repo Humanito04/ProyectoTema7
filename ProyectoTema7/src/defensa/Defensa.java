@@ -27,7 +27,7 @@ public class Defensa extends Jugador {
 
 	@Override
 	public String toString() {
-		return "Delantero [nombre " + this.getNombre()+"dorsal "+ this.getDorsal()+" equipo "+ this.getEquipo()+" disputas "
+		return "Defensa [nombre= " + this.getNombre()+", dorsal= "+ this.getDorsal()+", equipo= "+ this.getEquipo()+", disputas= "
 		+ this.disputasRealizadas + "]";
 	}
 	@Override

@@ -32,8 +32,8 @@ public class Extremo extends Delantero {
 		
 		@Override
 		public String toString() {
-			return "Delantero [nombre " + this.getNombre() + "dorsal " + this.getDorsal() + " equipo "
-					+ this.getEquipo() + " goles " + this.getGoles() + "puesto" + this.getPuesto() + "]";
+			return "Delantero [nombre= " + this.getNombre() + ", dorsal= " + this.getDorsal() + ", equipo= "
+					+ this.getEquipo() + ", goles= " + this.getGoles() + ", puesto= " + this.getPuesto() + "]";
 		}
 
 }

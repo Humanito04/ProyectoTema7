@@ -28,7 +28,7 @@ public class CentroCampista extends Jugador {
 
 	@Override
 	public String toString() {
-		return "Centro campista [nombre " + this.getNombre()+"dorsal "+ this.getDorsal()+" equipo "+ this.getEquipo()+" pases completados "
+		return "Centro Campista [nombre= " + this.getNombre()+", dorsal= "+ this.getDorsal()+", equipo= "+ this.getEquipo()+", pases completados= "
 		+ this.pasesCompletados + "]";
 	}
 	@Override

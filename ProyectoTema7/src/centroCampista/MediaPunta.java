@@ -3,26 +3,24 @@ package centroCampista;
 public class MediaPunta extends CentroCampista {
 	private int asistencias;
 
-	public MediaPunta(String nombre,int dorsal, String equipo, int pasesCompletados ,int asistencias) {
-		super(nombre,dorsal,equipo,pasesCompletados);
+	public MediaPunta(String nombre, int dorsal, String equipo, int pasesCompletados, int asistencias) {
+		super(nombre, dorsal, equipo, pasesCompletados);
 		this.asistencias = asistencias;
 	}
 
 	public int getAsistencias() {
 		return this.asistencias;
 	}
+
 	public void setAsistencias(int asistencias) {
 		this.asistencias = asistencias;
 	}
 
-
 	@Override
 	public String toString() {
-		return "MediaPunta [nombre= " +this.getNombre() +
-				", dorsal= " + this.getDorsal() +
-				", equipo= " + this.getEquipo() +
-				", pasesCompletados= " + this.getPasesCompletados() +
-				", asistencias= " + this.asistencias + "]";
+		return "Media Punta [nombre= " + this.getNombre() + ", dorsal= " + this.getDorsal() + ", equipo= "
+				+ this.getEquipo() + ", pases completados= " + this.getPasesCompletados() + ", asistencias= "
+				+ this.asistencias + "]";
 	}
 
 	@Override
@@ -31,10 +29,10 @@ public class MediaPunta extends CentroCampista {
 	}
 
 	@Override
-	public boolean equals (Object obj) {
+	public boolean equals(Object obj) {
 		MediaPunta otro = (MediaPunta) obj;
 		boolean result = false;
-		if(super.equals(otro) && this.asistencias == otro.asistencias) {
+		if (super.equals(otro) && this.asistencias == otro.asistencias) {
 			result = true;
 		}
 		return result;

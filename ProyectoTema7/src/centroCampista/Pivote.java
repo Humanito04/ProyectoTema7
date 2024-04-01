@@ -25,8 +25,8 @@ public class Pivote extends CentroCampista {
 
 	@Override
 	public String toString() {
-		return "Pivote [nombre " + this.getNombre()+"dorsal "+ this.getDorsal()+" equipo "+ this.getEquipo()+" pases completados "
-		+ this.getPasesCompletados() + "intercepciones" + this.intercepciones + "]";
+		return "Pivote [nombre= " + this.getNombre()+", dorsal= "+ this.getDorsal()+", equipo= "+ this.getEquipo()+", pases completados= "
+		+ this.getPasesCompletados() + ", intercepciones= " + this.intercepciones + "]";
 	}
 
 	@Override
