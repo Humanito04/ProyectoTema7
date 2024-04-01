@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) {
 		Equipo equipo1 = new Equipo();
 
-		 CentroCampista c1= new CentroCampista ( "pepa", 1,"sef",  4);
+		 CentroCampista c1= new CentroCampista ( "Pepa", 1,"sef",  4);
 		 MediaPunta m1= new MediaPunta( "nombre", 5,  "rty",  6 , 8);
 		 Pivote p1= new Pivote ( "juanito",3, "hgf", 8,9);
 		 Central central1= new Central ("vladi", 5, "dght", 7, 4);
