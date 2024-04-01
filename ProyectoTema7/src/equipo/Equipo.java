@@ -32,6 +32,20 @@ public class Equipo {
 	        }
 	    }
 	   
+	    
+	    System.out.println("Equipo [ "+  
+		this.jugadores[0].toString()+
+		this.jugadores[1].toString()+
+		this.jugadores[2].toString()+
+		this.jugadores[3].toString()+
+		this.jugadores[4].toString()+
+		this.jugadores[5].toString()+
+		this.jugadores[6].toString()+
+		this.jugadores[7].toString()+
+		this.jugadores[8].toString()+
+		this.jugadores[9].toString()+
+		this.jugadores[10].toString() + 
+		" ]"); ;
 	}
 
 }

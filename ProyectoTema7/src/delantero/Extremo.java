@@ -18,5 +18,22 @@ public class Extremo extends Delantero {
 		public String getPuesto() {
 			return this.puesto.toString();
 		}
+		
+		//Metodos
+		@Override
+		public boolean equals (Object obj) {
+			Extremo otro=(Extremo)obj;
+			boolean result=false;
+			if(super.equals(otro)&&this.getPuesto()==otro.getPuesto()) {
+				result=true;
+			}
+			return result;
+		}
+		
+		@Override
+		public String toString() {
+			return "Delantero [nombre " + this.getNombre() + "dorsal " + this.getDorsal() + " equipo "
+					+ this.getEquipo() + " goles " + this.getGoles() + "puesto" + this.getPuesto() + "]";
+		}
 
 }
