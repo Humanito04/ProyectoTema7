@@ -7,7 +7,7 @@ public class CentroCampista extends Jugador {
 
 	public CentroCampista (String nombre,int dorsal, String equipo, int pasesCompletados) {
 		super(nombre,dorsal,equipo);
-		this.pasesCompletados=pasesCompletados;
+		this.pasesCompletados = pasesCompletados;
 	}
 
 	public int getPasesCompletados() {
