@@ -11,6 +11,7 @@ public class Pivote extends CentroCampista {
 	public int getIntercepciones() {
 		return this.intercepciones;
 	}
+	
 	public void setIntercepciones(int intercepciones) {
 		this.intercepciones = intercepciones;
 	}
