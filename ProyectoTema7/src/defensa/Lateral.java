@@ -8,19 +8,14 @@ public class Lateral extends Defensa {
 		setPuesto(puesto);
 	}
 
-
-
 	public String getPuesto() {
 		return puesto.toString();
 	}
 
 
-
 	public void setPuesto(String puesto) {
 		this.puesto = Puesto.valueOf(puesto);
 	}
-
-
 
 	@Override
 	public void mostrarDatos() {
